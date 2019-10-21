@@ -1,4 +1,4 @@
-# Sprint2
+# Integration Project
 #Anthony Zarzana
 #Baseball Trivia Game
 totalcorrect = 0
