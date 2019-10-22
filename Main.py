@@ -2,12 +2,18 @@
 #Baseball Trivia Game
 totalcorrect = 0
 count = 0
+def multiply(x):
+    x * 3
+    return x
+result = multiply(2)
+
 print("Welcome to my Baseball Trivia Game")
 x = input("Are you ready to play the game?")
 if x == "yes":
     print("Goodluck")
 elif x == "no":
     exit(0)
+
 print("Which team won the World Series in 1999\n")
 y=input("A: Yankees\nB: Red Sox\nC: White Sox\nD: Angles")
 while count < 1:
