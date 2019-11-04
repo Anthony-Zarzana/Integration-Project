@@ -80,3 +80,25 @@ while count < 1:
         count += 1
 
 count = 0
+
+print("How many teams are in the MLB?\n")
+y = input("A: 40 \nB: 25 \nC: 22 \nD: 30 ")
+while count < 1:
+    if y == "D":
+        count = 1
+    else:
+        print("Wrong Answer")
+        count += 1
+
+count = 0
+
+print("Who was the first major league player to hit 4 home runs in a single game\n")
+y = input("A: Bobby Lowe \nB: Mike Trout \nC: Aaron Judge \nD: Babe Ruth ")
+while count < 1:
+    if y == "A":
+        count = 1
+    else:
+        print("Wrong Answer")
+        count += 1
+
+count = 0
